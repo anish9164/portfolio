@@ -39,6 +39,4 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: profile
-          directory: .opennext/cloudflare
-          wranglerVersion: 3
+          command: npx wrangler pages deploy .opennext/cloudflare --project-name=profile
