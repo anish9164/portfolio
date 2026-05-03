@@ -99,7 +99,7 @@ export function Hero() {
           <div className="relative hidden md:block lg:block">
             <div className="relative aspect-[3/4] w-full max-w-md ml-auto overflow-hidden rounded-2xl lg:max-w-lg">
               <Image
-                src="/portrait-of-a-designer-wearing-a-black-jacket-in-a.jpg"
+                src="/hero-image.jpg"
                 alt="Anish Kumar - Graphic Designer"
                 fill
                 className="object-cover"
