@@ -26,7 +26,7 @@ export function Hero() {
           <div className="flex flex-col items-start gap-6 md:gap-8">
             <span className="glass inline-flex items-center gap-2 rounded-full px-4 py-1.5 text-xs uppercase tracking-[0.18em] text-muted-foreground">
               <Sparkles className="h-3.5 w-3.5 text-accent" aria-hidden />
-              Available for select projects · 2026
+              Transform your vision into reality.
             </span>
 
             <h1 className="font-display text-balance text-5xl font-semibold leading-[0.95] tracking-tight sm:text-6xl md:text-7xl lg:text-8xl xl:text-[9rem]">
@@ -50,6 +50,9 @@ export function Hero() {
                     "kinetic motion graphics.",
                     "futuristic interfaces.",
                     "typography systems.",
+                    "3d Design & Animation.",
+                    "Video Editing & Post-Production.",
+                    "UI/UX Design.",
                   ]}
                 />
               </p>
@@ -80,15 +83,17 @@ export function Hero() {
                   <div key={i} className="flex items-center gap-8 md:gap-12">
                     <span>Branding</span>
                     <span className="text-accent">/</span>
-                    <span>Motion</span>
+                    <span>Motion Design</span>
                     <span className="text-accent">/</span>
-                    <span>UI Systems</span>
+                    <span>UI & UX Design</span>
                     <span className="text-accent">/</span>
-                    <span>Editorial</span>
+                    <span>Graphic Design</span>
                     <span className="text-accent">/</span>
-                    <span>3D &amp; Type</span>
+                    <span>3D &amp; Design</span>
                     <span className="text-accent">/</span>
-                    <span>Art Direction</span>
+                    <span>Video Editing</span>
+                    <span className="text-accent">/</span>
+                    <span>Color Grading</span>
                     <span className="text-accent">/</span>
                   </div>
                 ))}
